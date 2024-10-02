@@ -116,6 +116,3 @@ from mlxtend.plotting import plot_decision_regions
 # Plotting the decision boundary for the training data
 # 'legend=2' will display the legend in the plot
 plot_decision_regions(x_train, y_train.values, clf=clf, legend=2)
-
-# Saving the decision boundary plot as 'decision_boundary.png'
-plt.savefig('decision_boundary')
